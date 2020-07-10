@@ -4,6 +4,7 @@
     <HeyuiDialog></HeyuiDialog>
     <p>ElementUI Dialog</p>
     <ElementuiDialog></ElementuiDialog>
+    <input type="text">
   </div>
 </template>
 

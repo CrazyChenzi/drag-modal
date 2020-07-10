@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Modal v-model="opened">
+    <Modal v-model="opened" >
       <div slot="header">Vue</div>
       <div >这是使用vue调用的弹出框</div>
       <div slot="footer">
@@ -20,5 +20,8 @@ import { Component, Vue } from 'vue-property-decorator';
 })
 export default class App extends Vue {
   private opened = false
+  private mounted() {
+    // console.log(this)
+  }
 }
 </script>
