@@ -4,7 +4,6 @@
     <HeyuiDialog></HeyuiDialog>
     <p>ElementUI Dialog</p>
     <ElementuiDialog></ElementuiDialog>
-    <input type="text">
   </div>
 </template>
 
@@ -27,5 +26,6 @@ export default class App extends Vue {}
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: 100vh;
 }
 </style>

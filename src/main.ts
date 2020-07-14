@@ -9,7 +9,6 @@ import vDrag from '@/directives/drag'
 Vue.config.productionTip = false
 Vue.use(ElementUI)
 Vue.use(HeyUI)
-console.log(vDrag)
 Vue.directive('drag', vDrag)
 
 new Vue({

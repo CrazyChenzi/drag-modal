@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Modal v-model="opened" >
+    <Modal v-model="opened" :hasMask="false">
       <div slot="header">Vue</div>
       <div >这是使用vue调用的弹出框</div>
       <div slot="footer">
